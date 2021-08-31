@@ -43,6 +43,12 @@ Maybe venue data (like address, contact information and additional COVID policie
 ## Current State
 Currently the bot is only existing as a flow in Dialogflow CX. The static demo content is delivered by a conditional response.
 
+## Naming Conventions
+Pages: in title case
+Intents:  all lower case with dot notation, if needed use a hyphen to separate words
+Custom Entities: all lower case with dot notation, if needed use a hyphen to separate words
+Parameters: all lower case with hyphen to separate words
+
 ## TODO / Next Tasks
 - Design supplemental intents handling for FAQ like: how reliable is the information?
 - Create Look-Up Backend Service
